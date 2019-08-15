@@ -19,16 +19,20 @@
                 age:  55
             }
 
-            handleClick(e){
+            handleClick = (e) => {
                 //console.log(e.target);
-                console.log(this.state)
+                this.setState({
+                    name: 'Nurrizky',
+                    age: 20
+                });
+                console.log(this.state);
             }
 
-            handleMouseOver(e){
+            handleMouseOver = (e) => {
                 console.log(e.target, e.pageX);
             }
 
-            handleCopy(e){
+            handleCopy = (e) =>{
                 console.log('Try be original for once;')
             }
 
