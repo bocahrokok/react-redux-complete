@@ -21,7 +21,7 @@ class Home extends Component {
 
         const {posts } = this.state;
         const postList = posts.length ? (
-            posts.map(post => {
+          posts.map(post => {
                 return (
                     <div className="post card" key={post.id}>
                         <div className="card-content">
